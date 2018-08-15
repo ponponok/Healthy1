@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:weightSum="1">
+    <EditText
+        android:drawableLeft="@drawable/ico_person"
+        android:layout_marginTop="15dp"
+        android:hint="@string/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_people"
+        android:layout_marginTop="15dp"
+        android:hint="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_calender"
+        android:layout_marginTop="15dp"
+        android:hint="@string/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_password"
+        android:layout_marginTop="15dp"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:hint="@string/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
